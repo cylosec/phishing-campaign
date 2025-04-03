@@ -72,6 +72,7 @@ GoPhish setup, are managed by the operator.
 - Let's Encrypt TLS via Certbot
 - Hardened with UFW, Fail2Ban, and updated packages
 
+> ⚠️ In production, GoPhish runs on `localhost (127.0.0.1)` and is exposed externally **only via Nginx** for security.
 ---
 
 ## 📨 Campaign Execution
