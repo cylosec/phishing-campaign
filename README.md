@@ -58,6 +58,10 @@ GoPhish setup, are managed by the operator.
 
 ## 📂 Project Structure
 
+### 🔧 Network Architecture
+
+![Network Diagram](./assets/screenshots/network-diagram.png)
+
 
 ---
 
