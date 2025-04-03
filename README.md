@@ -18,7 +18,7 @@ This project simulates a controlled phishing campaign to test an organization's 
 
 ```bash
 ├── email_templates/          # Department-specific phishing email drafts
-├── landing_page/             # "You've been spoofed" educational HTML page
+├── landing_page/             # "Login Portal" spoof login HTML page
 ├── reports/                  # Final analysis and metrics
 ├── test_logs/                # Email delivery and link click data
 ├── scripts/                  # Automation scripts (e.g., for Gophish or SMTP)
