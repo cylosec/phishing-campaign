@@ -29,6 +29,11 @@ Simulate a real-world phishing campaign to evaluate:
 | Email            | Private Mailbox (SPF, DKIM, DMARC configured) |
 | Campaign Hosting | `https://yourdomain.com/portal`        |
 
+## 🗺️ Engagement Diagram
+
+![Network Diagram](../assets/screenshots/network-diagram.png)
+
+
 ---
 
 ## ✉️ Campaign Summary
