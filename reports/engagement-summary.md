@@ -1,14 +1,14 @@
-# 🛡️ Phishing Simulation Engagement Summary
+# Phishing Simulation Engagement Summary
 
 **Client:** [Redacted Organization]  
 **Operator:** Cyrus Lomibao  
 **Date:** [Insert Engagement Date]  
-**Status:** ✅ Completed  
+**Status:** Completed  
 **Playbook:** [`phishing-simulation-playbook`](../README.md)
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Simulate a real-world phishing campaign to evaluate:
 
@@ -18,7 +18,7 @@ Simulate a real-world phishing campaign to evaluate:
 
 ---
 
-## 🧰 Tools & Infrastructure
+## Tools & Infrastructure
 
 | Component        | Details                                |
 |------------------|----------------------------------------|
@@ -29,7 +29,7 @@ Simulate a real-world phishing campaign to evaluate:
 | Email            | Private Mailbox (SPF, DKIM, DMARC configured) |
 | Campaign Hosting | `https://yourdomain.com/portal`        |
 
-## 🗺️ Engagement Diagram
+## Engagement Diagram
 
 ![Network Diagram](../assets/screenshots/network-diagram.png)
 
@@ -45,11 +45,11 @@ Simulate a real-world phishing campaign to evaluate:
 link |
 | Landing Page     | Custom awareness page: “You’ve been spoofed!” |
 | Data Collected   | Link clicks only (no credentials harvested) |
-| Authorization    | ✅ Fully approved test engagement            |
+| Authorization    | Fully approved test engagement            |
 
 ---
 
-## 🧪 Results
+## Results
 
 | Metric           | Result              |
 |------------------|---------------------|
@@ -63,15 +63,15 @@ link |
 
 ---
 
-## 🚨 Observations & Lessons
+## Observations & Lessons
 
-- ✅ SPF/DKIM/DMARC were bypassed successfully due to aliasing
-- ⚠️ Some users clicked immediately with no link hovering or scrutiny
-- ❌ No internal alert was triggered (could improve detection stack)
+- SPF/DKIM/DMARC were bypassed successfully due to aliasing
+- ⚠Some users clicked immediately with no link hovering or scrutiny
+- No internal alert was triggered (could improve detection stack)
 
 ---
 
-## 🔐 Recommendations
+## Recommendations
 
 - Train users to hover over links and verify senders
 - Configure advanced link scanning or sandboxing
@@ -80,7 +80,7 @@ link |
 
 ---
 
-## 🧾 Notes
+## Notes
 
 - This was a **harmless** engagement with no credential theft
 - Email link resolved to an internal awareness page, not a live exploit
@@ -88,6 +88,6 @@ link |
 
 ---
 
-> 🧠 Want the full toolkit? See [`configs/`](../configs) and 
+> Want the full toolkit? See [`configs/`](../configs) and 
 [`campaigns/`](../campaigns)
 
