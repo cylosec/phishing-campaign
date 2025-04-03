@@ -1,4 +1,4 @@
-# 🎯 Phishing Simulation Playbook
+# Phishing Simulation Playbook
 
 This repository documents a real-world, **authorized phishing awareness 
 campaign** using [GoPhish](https://getgophish.com/), hosted on a hardened 
@@ -6,27 +6,27 @@ VPS with a custom domain (`yourdomain.com`). It is structured as a red
 team playbook for demonstrating phishing tactics, infrastructure setup, 
 campaign execution, and reporting.
 
-> ⚠️ **Ethical Notice**: This campaign is fully authorized and conducted 
+> **Ethical Notice**: This campaign is fully authorized and conducted 
 under strict ethical guidelines. It is intended purely for educational and 
 security testing purposes.
 
 ---
 
-## 📖 Playbook Contents
+## Playbook Contents
 
-- [📌 Overview](#-overview)
-- [🧪 Project Goals](#-project-goals)
-- [🛠️ Technologies Used](#-technologies-used)
-- [📂 Project Structure](#-project-structure)
-- [⚙️ Setup & Configuration](#️-setup--configuration)
-- [📨 Campaign Execution](#-campaign-execution)
-- [📊 Reports](#-reports)
-- [🖼️ Assets](#-assets)
-- [📜 License](#-license)
+- [Overview](#-overview)
+- [Project Goals](#-project-goals)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Setup & Configuration](#️-setup--configuration)
+- [Campaign Execution](#-campaign-execution)
+- [Reports](#-reports)
+- [Assets](#-assets)
+- [License](#-license)
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project simulates a **controlled phishing campaign** to test an 
 organization's email filtering effectiveness and user security awareness. 
@@ -35,7 +35,7 @@ GoPhish setup, are managed by the operator.
 
 ---
 
-## 🧪 Project Goals
+## Project Goals
 
 - Test email server filtering for suspicious links and spoofed senders.
 - Evaluate end-user awareness across different departments.
@@ -44,7 +44,7 @@ GoPhish setup, are managed by the operator.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **GoPhish** – Phishing simulation framework
 - **Vultr VPS** – Hosting and deployment
@@ -56,18 +56,18 @@ GoPhish setup, are managed by the operator.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-### 🔧 Network Architecture
+### Network Architecture
 
 ![Network Diagram](./assets/screenshots/network-diagram.png)
 
 
 ---
 
-## ⚙️ Setup & Configuration
+## Setup & Configuration
 
-> 📁 See the [`configs/`](./configs) folder for actual files and examples.
+> See the [`configs/`](./configs) folder for actual files and examples.
 
 - GoPhish installed on VPS at `yourdomain.com`
 - Nginx reverse proxy forwards:
@@ -79,9 +79,9 @@ GoPhish setup, are managed by the operator.
 > ⚠️ In production, GoPhish runs on `localhost (127.0.0.1)` and is exposed externally **only via Nginx** for security.
 ---
 
-## 📨 Campaign Execution
+## Campaign Execution
 
-> 📁 See the [`campaigns/`](./campaigns) folder for templates and assets.
+> See the [`campaigns/`](./campaigns) folder for templates and assets.
 
 - **Target**: A predefined set of internal users
 - **Email Template**: A spoofed internal support message with a link to a 
@@ -93,7 +93,7 @@ Namecheap DNS)
 
 ---
 
-## 📊 Reports
+## Reports
 
 > 📁 See the [`reports/`](./reports) folder for full engagement summaries.
 
@@ -103,14 +103,14 @@ Namecheap DNS)
 
 ---
 
-## 🖼️ Assets
+## Assets
 
 > 📁 See the [`assets/`](./assets) folder for screenshots, phishing page 
 previews, and architecture diagrams.
 
 ---
 
-## 📜 License
+## License
 
 This repository is intended solely for ethical cybersecurity testing, 
 educational purposes, and professional portfolio demonstration. Do **not** 
