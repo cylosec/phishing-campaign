@@ -73,7 +73,7 @@ GoPhish setup, are managed by the operator.
 - Nginx reverse proxy forwards:
   - `https://yourdomain.com/admin` → GoPhish admin UI
   - `https://yourdomain.com/portal` → phishing landing page
-- Let's Encrypt TLS via Certbot
+- Encrypt TLS via Certbot
 - Hardened with UFW, Fail2Ban, and updated packages
 
 > ⚠️ In production, GoPhish runs on `localhost (127.0.0.1)` and is exposed externally **only via Nginx** for security.
