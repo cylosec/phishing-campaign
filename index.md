@@ -2,9 +2,10 @@
 
 **Client:** [Redacted Organization]  
 **Operator:** Cyrus Lomibao  
-**Date:** [Insert Engagement Date]  
+**Date:** April 1–2, 2025
 **Status:** ✅ Completed  
-**Playbook:** [`phishing-simulation-playbook`](../README.md)
+**Playbook:** [View on GitHub](https://github.com/cylosec/phishing-campaign)
+
 
 ---
 
@@ -83,6 +84,7 @@ link |
 
 ---
 
-> 🧠 Want the full toolkit? See [`configs/`](../configs) and 
-[`campaigns/`](../campaigns)
+> 🧠 Want the full toolkit? See [`configs/`](https://github.com/cylosec/phishing-campaign/tree/main/configs) and 
+[`campaigns/`](https://github.com/cylosec/phishing-campaign/tree/main/campaigns)
+
 
