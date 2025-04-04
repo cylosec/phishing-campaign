@@ -57,6 +57,7 @@ link |
 | False Positives  | None / Low / High   |
 
 >  [Include screenshots or paste key metrics from GoPhish report export]
+![Network Diagram](./assets/screenshots/network-diagram-vultr.png)
 
 ---
 
