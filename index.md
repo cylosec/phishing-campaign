@@ -28,7 +28,6 @@ Simulate a real-world phishing campaign to evaluate:
 | Reverse Proxy    | Nginx (TLS via Let's Encrypt)          |
 | Domain           | yourdomain.com (DNS via Namecheap)     |
 | Email            | Namecheap Private Mailbox (SPF, DKIM, DMARC 
-configured) |
 | Campaign Hosting | Vultr VPS serving https://yourdomain.com/portal |
 
 ---
@@ -39,7 +38,6 @@ configured) |
 |------------------|---------------------------------------------|
 | Target Audience  | Internal staff at [sbcc.community]          |
 | Phishing Email   | Spoofed IT support alert with a "Review Activity" 
-link |
 | Landing Page     | Custom awareness page: “Portal Login” |
 | Data Collected   | Link clicks only (input fields harvested) |
 | Authorization    | ✅ Fully approved test engagement            |
