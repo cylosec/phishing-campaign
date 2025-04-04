@@ -19,16 +19,17 @@ Simulate a real-world phishing campaign to evaluate:
 
 ---
 
-##  Tools & Infrastructure
+## Tools & Infrastructure
 
 | Component        | Details                                |
 |------------------|----------------------------------------|
 | Framework        | GoPhish                                |
-| VPS Provider     | Vultr (Ubuntu 22.04 LTS)               |
+| VPS Hosting      | Vultr (Ubuntu 22.04 LTS)               |
 | Reverse Proxy    | Nginx (TLS via Let's Encrypt)          |
-| Domain           | `yourdomain.com` (DNS via Namecheap)  |
-| Email            | Private Mailbox (SPF, DKIM, DMARC configured) |
-| Campaign Hosting | `https://yourdomain.com/portal`        |
+| Domain           | yourdomain.com (DNS via Namecheap)     |
+| Email            | Namecheap Private Mailbox (SPF, DKIM, DMARC 
+configured) |
+| Campaign Hosting | Vultr VPS serving https://yourdomain.com/portal |
 
 ---
 
