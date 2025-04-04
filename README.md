@@ -67,16 +67,23 @@ GoPhish setup, are managed by the operator.
 
 ## Setup & Configuration
 
-> See the [`configs/`](./configs) folder for actual files and examples.
+See the [`configs/`](https://github.com/cylosec/phishing-campaign/tree/main/configs) folder for actual 
+files and examples.  
+For a full walkthrough of provisioning a VPS, securing it, and installing GoPhish, see the [Vultr Setup 
+Guide](https://github.com/cylosec/phishing-campaign/blob/main/VULTR_SETUP_GUIDE.md).
 
-- GoPhish installed on VPS at `yourdomain.com`
+- GoPhish installed and configured on a Vultr VPS at `yourdomain.com`
 - Nginx reverse proxy forwards:
   - `https://yourdomain.com/admin` → GoPhish admin UI
   - `https://yourdomain.com/portal` → phishing landing page
-- Encrypt TLS via Certbot
-- Hardened with UFW, Fail2Ban, and updated packages
+- TLS enabled using Certbot and Let's Encrypt
+- Server hardened with UFW, Fail2Ban, and security updates
 
-> ⚠️ In production, GoPhish runs on `localhost (127.0.0.1)` and is exposed externally **only via Nginx** for security.
+> [!WARNING]  
+> In production, GoPhish runs on `localhost (127.0.0.1)` and is exposed externally only via Nginx for 
+security.
+
+
 ---
 
 ## Campaign Execution
