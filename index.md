@@ -40,8 +40,8 @@ configured) |
 | Target Audience  | Internal staff at [sbcc.community]          |
 | Phishing Email   | Spoofed IT support alert with a "Review Activity" 
 link |
-| Landing Page     | Custom awareness page: “You’ve been spoofed!” |
-| Data Collected   | Link clicks only (no credentials harvested) |
+| Landing Page     | Custom awareness page: “Portal Login” |
+| Data Collected   | Link clicks only (input fields harvested) |
 | Authorization    | ✅ Fully approved test engagement            |
 
 ---
@@ -57,7 +57,6 @@ link |
 | False Positives  | None / Low / High   |
 
 >  [Include screenshots or paste key metrics from GoPhish report export]
-![Network Diagram](./assets/screenshots/network-diagram-vultr.png)
 
 ---
 
