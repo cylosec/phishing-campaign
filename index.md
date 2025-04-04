@@ -56,7 +56,6 @@ link |
 | Repeat Clickers  | X (e.g., 3)         |
 | False Positives  | None / Low / High   |
 
->  [Include screenshots or paste key metrics from GoPhish report export]
 
 ---
 
