@@ -18,7 +18,7 @@ This technique relies on:
 - Proper SPF/DKIM configuration on the sender's domain
 
 In this campaign, emails passed SPF and DKIM from `yourdomain.com`, while impersonating a support account 
-at `sbcc.community`.
+at `yourcompany.com`.
 
 ## 2. Importance of HTTPS and SSL Certificates
 
