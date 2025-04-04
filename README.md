@@ -60,7 +60,7 @@ GoPhish setup, are managed by the operator.
 
 ### Network Architecture
 
-![Network Diagram](./assets/screenshots/network-diagram.png)
+![Network Diagram](./assets/screenshots/network-diagram-vultr.png)
 
 
 ---
