@@ -71,7 +71,6 @@
    - Visit: `https://yourdomain.com/portal`
    - Confirm it's routed through Nginx and served correctly
 
-* I found Vulr---
 
 ### 💡 VPS Alternatives
 
