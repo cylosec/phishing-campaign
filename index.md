@@ -40,7 +40,7 @@ Simulate a real-world phishing campaign to evaluate:
 | Phishing Email   | Spoofed IT support alert with a "Review Activity" 
 | Landing Page     | Custom awareness page: “Portal Login” |
 | Data Collected   | Link clicks only (input fields harvested) |
-| Authorization    | ✅ Fully approved test engagement            |
+| Authorization    | ☑︎ Fully approved test engagement            |
 
 ---
 
