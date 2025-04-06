@@ -36,7 +36,7 @@ Simulate a real-world phishing campaign to evaluate:
 
 | Detail           | Info                                        |
 |------------------|---------------------------------------------|
-| Target Audience  | Internal staff at [redacted]          |
+| Target Audience  | Internal staff at [REDACTED]          |
 | Phishing Email   | Spoofed IT support alert with a "Review Activity" 
 | Landing Page     | Custom awareness page: “Portal Login” |
 | Data Collected   | Link clicks only (input fields harvested) |
