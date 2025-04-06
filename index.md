@@ -3,7 +3,7 @@
 **Client:** [Redacted Organization]  
 **Operator:** Cyrus Lomibao  
 **Date:** April 1–2, 2025
-**Status:** ✅ Completed  
+**Status:** ☑ Completed  
 **Playbook:** [View on GitHub](https://github.com/cylosec/phishing-campaign)
 
 
