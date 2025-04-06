@@ -6,7 +6,7 @@ VPS with a custom domain (`yourdomain.com`). It is structured as a red
 team playbook for demonstrating phishing tactics, infrastructure setup, 
 campaign execution, and reporting.
 
-> **Ethical Notice**: This campaign is fully authorized and conducted 
+> ** ⚠️ Ethical Notice**: This campaign is fully authorized and conducted 
 under strict ethical guidelines. It is intended purely for educational and 
 security testing purposes.
 
