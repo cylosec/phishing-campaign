@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Phishing Campaign | CyloSec</title>
 
-  <!-- Open Graph for LinkedIn -->
+  <!-- Open Graph for LinkedIn (optional) -->
   <meta property="og:title" content="Phishing Campaign | CyloSec" />
   <meta property="og:description" content="A real-world phishing campaign simulation with GoPhish, conducted in a controlled environment to test security awareness." />
-  <meta property="og:image" content="https://cylosec.github.io/phishing-campaign/assets/img/preview.png" />
   <meta property="og:url" content="https://cylosec.github.io/phishing-campaign/" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -23,10 +22,17 @@
     h1, h2 {
       color: #333;
     }
-    code {
-      background: #f2f2f2;
-      padding: 2px 4px;
-      border-radius: 4px;
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
     }
     .redacted {
       background: black;
@@ -42,8 +48,29 @@
 
   <p>This was a controlled phishing campaign conducted to assess organizational awareness around phishing threats using <a href="https://getgophish.com">GoPhish</a>.</p>
 
-  <h2>Objective</h2>
-  <p>Test users' ability to identify suspicious emails and determine the click/open rate of a crafted phishing link.</p>
+  <h2>Campaign Summary</h2>
+  <table>
+    <tr>
+      <th>Detail</th>
+      <th>Info</th>
+    </tr>
+    <tr>
+      <td>Target Audience</td>
+      <td>Internal staff at <span class="redacted">[REDACTED]</span></td>
+    </tr>
+    <tr>
+      <td>Delivery Method</td>
+      <td>Email (via trusted-looking IT support alias)</td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td>Custom spoofed login form</td>
+    </tr>
+    <tr>
+      <td>Goal</td>
+      <td>Measure click rate and login attempts</td>
+    </tr>
+  </table>
 
   <h2>Infrastructure</h2>
   <ul>
@@ -52,19 +79,17 @@
     <li>Custom domain with email aliases</li>
   </ul>
 
-  <h2>Email Details</h2>
-  <p>A professional-looking email was crafted to resemble IT support, containing a link to a spoofed login portal.</p>
+  <h2>Email & Page Details</h2>
+  <p>A professionally written email posed as an internal IT message. The link led to a spoofed login page that logged credentials without storing any real passwords or sensitive data.</p>
 
-  <h2>Landing Page</h2>
-  <p>The landing page mimicked a real login form and tracked user interactions. All data collected was non-sensitive and part of the simulation.</p>
+  <h2>Ethical Disclosure</h2>
+  <p>All testing was fully authorized by the organization. No personal data was stored or exposed. The target organization has been redacted to maintain confidentiality.</p>
 
-  <h2>Redacted Target Info</h2>
-  <p>The organization name has been redacted for confidentiality. All activities were authorized and performed ethically.</p>
-
-  <h2>Results</h2>
-  <p>The results are being analyzed and will inform improved training and alerting procedures going forward.</p>
+  <h2>Next Steps</h2>
+  <p>The results are being used to improve user training and security posture. A final report has been shared with stakeholders to guide remediation and awareness efforts.</p>
 
   <hr />
   <p><em>For educational and professional demonstration only. All simulations were conducted in a legal and authorized manner.</em></p>
 </body>
 </html>
+
