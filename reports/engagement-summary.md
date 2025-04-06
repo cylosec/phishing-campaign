@@ -35,7 +35,7 @@ Simulate a real-world phishing campaign to evaluate:
 
 | Detail           | Info                                        |
 |------------------|---------------------------------------------|
-| Target Audience  | Internal staff at [sbcc.community]          |
+| Target Audience  | Internal staff at [yourcompany.com]          |
 | Phishing Email   | Spoofed IT support alert with a "Review Activity" 
 link |
 | Landing Page     | Custom awareness page: “You’ve been spoofed!” |
