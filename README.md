@@ -12,13 +12,13 @@ security testing purposes.
 
 ---
 
-## 📖 Playbook Contents
+## Playbook Contents
 
 - [Overview](#-overview)
 - [Project Goals](#-project-goals)
 - [Technologies Used](#-technologies-used)
 - [Project Structure](#-project-structure)
-- [⚙Setup & Configuration](#️-setup--configuration)
+- [Setup & Configuration](#️-setup--configuration)
 - [Campaign Execution](#-campaign-execution)
 - [Reports](#-reports)
 - [Assets](#-assets)
